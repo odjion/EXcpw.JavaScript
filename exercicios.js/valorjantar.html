@@ -13,8 +13,10 @@
 <script>
 let valorJantar = Number(prompt("Informe aqui o vbalor do jantar: "))
 let taxaGarçom = Number (prompt("Digite a taxa do garçom: "))
-let soma = valorJantar+taxaGarçom
-window.alert ("Valor total do jantar: " + soma)
+valorJantar.toFixed(2)
+taxaGarçom.toFixed(2)
+let valorTotal = valorJantar+taxaGarçom
+window.alert ("Valor total do jantar: " + valorTotal )
 
 </script>
 
